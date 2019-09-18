@@ -1,0 +1,5 @@
+# Nomalization Process for Vet. Office
+Pet-And-Owner (PetType, PetBreed, PetDOB, OwnersLastName, OwnersFirstName, OwnerPhone, OwnerEmail, Service, Date, Charge)
+# Primary Key Owner Last Name
+Table 1 = PetName (PetType, PetBreed, PetDOB, # OwnersLastName #, OwnersFirstName, OwnersPhone, OwnersEmail, Service, Date Charge)
+Table Broken Down = PetName (PetType, PetBreed, PetDob) OwnersLastName (OwnersFirstName, OwnersPhone, OwnersEmail) Service (Date, Charge)
